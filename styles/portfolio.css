@@ -1,62 +1,121 @@
 /* nav related style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
 }
+
 /* common shared style */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-family: 'lato,sans-serif';
 }
 
-nav li{
+nav li {
     list-style: none;
 
 }
-.nav-title{
+
+.nav-title {
     color: #181818;
-font-size: 45px;
+    font-size: 45px;
 
-font-weight: 800;
+    font-weight: 800;
 
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
-    
+
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #D9D9D9;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
-border: 0;
-font-size: 20px;
-font-weight: 700;
-color:white;
-padding: 15px 35px;
+    background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
 }
+
 /* header style */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px ;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
-.banner .profile-picture{
-    width: 500px ;
+
+.banner-content {
+    width: 500px;
+}
+
+.banner .profile-picture {
+    width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner-description {
+    margin-bottom: 30px;
+}
+
+/* main section styles */
+/* about section styles
+ */
+.about {
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+
+.section-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    padding: 130px;
+    margin-top: 0px;
+    ma
 }
