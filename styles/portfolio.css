@@ -103,6 +103,9 @@ main {
     height: 550px;
     margin: 0px auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 /* about section styles
  */
@@ -139,4 +142,26 @@ color: #757575;
 }
 .what-i-do-description{
     padding: 30px 150px;
+}
+/* skill related styles */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border: whitesmoke;
+
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color: #757575;
+    
+}
+.resume-colmun-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
 }
